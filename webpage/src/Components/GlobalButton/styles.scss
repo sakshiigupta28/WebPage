@@ -1,0 +1,43 @@
+.global_btn {
+  min-width: fit-content;
+  height: 42px;
+  border: 1px solid #402f00;
+  border-radius: 22px;
+  padding: 8px 19px;
+  margin-right: 10px;
+  color: #000;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  &:hover{
+    color: #f5cf6a;
+  }
+}
+
+
+
+.textYellow{
+  color: #f5cf6a;
+}
+.notYellow{
+  color: #000;
+}
+.highlighted {
+  background: #ffffff;
+  // color: #f5cf6a;
+}
+
+.solid {
+  background-color: #f5cf6a;
+}
+
+.btn_img {
+  width: 14px;
+  margin-left: 1rem;
+  
+}
+
+.global_btn_text {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
