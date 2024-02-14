@@ -4,26 +4,20 @@
   border: 1px solid #402f00;
   border-radius: 22px;
   padding: 8px 19px;
-  margin-right: 10px;
+  margin-right: 1.5rem;
   color: #000;
   margin-bottom: 1rem;
   cursor: pointer;
-  &:hover{
-    color: #f5cf6a;
-  }
 }
 
-
-
-.textYellow{
+.textYellow {
   color: #f5cf6a;
 }
-.notYellow{
+.notYellow {
   color: #000;
 }
 .highlighted {
   background: #ffffff;
-  // color: #f5cf6a;
 }
 
 .solid {
@@ -32,8 +26,7 @@
 
 .btn_img {
   width: 14px;
-  margin-left: 1rem;
-  
+  margin-left: 1rem; 
 }
 
 .global_btn_text {

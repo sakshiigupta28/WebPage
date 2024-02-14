@@ -14,7 +14,7 @@ const GlobalBtn = ({ text, btnType, icon, isColor, btnBorder , btnAction,colorTy
       >
         <div className="global_btn_text">
           {text}
-          {icon && <img className="btn_img" src={icon} />}
+          {icon && <img className={ 'true' ? 'btn_img open' : 'btn_img'} src={icon} />}
           
         </div>
       </button>

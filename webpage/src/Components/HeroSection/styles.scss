@@ -42,6 +42,9 @@
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 4rem;
+    .btn_div{
+      padding: 0 10rem;
+    }
   }
   .creative_heading {
     color: #402f00;
@@ -51,6 +54,15 @@
     padding-bottom: 2.5rem;
   }
 }
+
+@media (max-width: "1710px") {
+ .creative_page_div{
+    .btn_sec {
+      .btn_div {
+        padding:  0 3rem;
+      }
+  
+}}}
 
 @media (max-width: "600px") {
   .hero_sec_div {
